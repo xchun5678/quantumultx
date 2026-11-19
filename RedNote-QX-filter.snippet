@@ -1,0 +1,5 @@
+# 小红书/RedNote QX 分流片段 —— 粘进配置文件的 [filter_local]，放在 final 之前
+# 对应 Surge 版 [Rule] 的 CDN 直连三条；QUIC 按域名拦截 QX 无等价写法（见 RedNote-QX.conf 头注）
+host-suffix, rednotecan.com, direct
+host-suffix, xhscdn.com, direct
+host-suffix, rnote.com, direct
